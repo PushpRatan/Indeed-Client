@@ -1,6 +1,5 @@
 // eslint-disable-next-line no-unused-vars
 import { AppBar, Toolbar, styled } from "@mui/material";
-import { useNavigate } from "react-router-dom";
 import { routePath } from "../routes/route";
 import { Link } from "react-router-dom";
 
@@ -19,7 +18,6 @@ const Header = () => {
   const logo =
     "https://get-staffed.com/wp-content/uploads/2020/07/indeed-logo.png";
 
-  const navigate = useNavigate();
   return (
     <StyledAppBar>
       <Toolbar>
