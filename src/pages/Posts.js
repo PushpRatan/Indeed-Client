@@ -7,7 +7,6 @@ import {
   CardContent,
   InputBase,
   Typography,
-  collapseClasses,
   styled,
 } from "@mui/material";
 
